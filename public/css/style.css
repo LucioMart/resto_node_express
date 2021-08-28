@@ -26,3 +26,18 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    padding: 2rem 9%;
+}
+
+section:nth-child(even) {
+    background: #eee;
+}
+
+.sub-heading {
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
